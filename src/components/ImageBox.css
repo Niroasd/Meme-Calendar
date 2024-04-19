@@ -1,8 +1,12 @@
 .image-box {
-    width: 200px;
-    margin: 20px;
-    text-align: center;
-  }
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.image-box h2, h3 {
+  margin: 10px 0px;
+}
 
 .image-box img {
   width: 100%;
