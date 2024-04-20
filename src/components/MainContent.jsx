@@ -3,18 +3,18 @@ import './MainContent.css';
 import ImageBox from './ImageBox'
 
 const imageBoxesData = [
-  { id: 1, month: 'January', imageSrc: 'january.jpg', altText: 'January meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 2, month: 'February', imageSrc: 'february.jpg', altText: 'February meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 3, month: 'March', imageSrc: 'march.jpg', altText: 'March meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 4, month: 'April', imageSrc: 'april.jpg', altText: 'April meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 5, month: 'May', imageSrc: 'may.jpg', altText: 'May meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 6, month: 'June', imageSrc: 'june.jpg', altText: 'June meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 7, month: 'July', imageSrc: 'july.jpg', altText: 'July meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 8, month: 'August', imageSrc: 'august.jpg', altText: 'August meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 9, month: 'September', imageSrc: 'september.jpg', altText: 'September meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 10, month: 'October', imageSrc: 'october.jpg', altText: 'October meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 11, month: 'November', imageSrc: 'november.jpg', altText: 'November meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
-  { id: 12, month: 'December', imageSrc: 'december.jpg', altText: 'December meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
+  { id: 1, month: 'January', imageSrc: 'january.jpg', altText: 'January meme', title: 'title', author: 'u/Legen47', upvotes: '23,6k' },
+  { id: 2, month: 'February', imageSrc: 'february.jpg', altText: 'February meme', title: 'title', author: 'u/V', upvotes: '23,6k' },
+  { id: 3, month: 'March', imageSrc: 'march.jpg', altText: 'March meme', title: 'title', author: 'u/Kuma', upvotes: '23,6k' },
+  { id: 4, month: 'April', imageSrc: 'april.jpg', altText: 'April meme', title: 'title', author: 'u/Strawhat', upvotes: '23,6k' },
+  { id: 5, month: 'May', imageSrc: 'may.jpg', altText: 'May meme', title: 'title', author: 'u/user12', upvotes: '23,6k' },
+  { id: 6, month: 'June', imageSrc: 'june.jpg', altText: 'June meme', title: 'title', author: 'u/BKC', upvotes: '23,6k' },
+  { id: 7, month: 'July', imageSrc: 'july.jpg', altText: 'July meme', title: 'title', author: 'u/Napoleon', upvotes: '23,6k' },
+  { id: 8, month: 'August', imageSrc: 'august.jpg', altText: 'August meme', title: 'title', author: 'u/Dovahkin', upvotes: '23,6k' },
+  { id: 9, month: 'September', imageSrc: 'september.jpg', altText: 'September meme', title: 'title', author: 'u/UFO', upvotes: '23,6k' },
+  { id: 10, month: 'October', imageSrc: 'october.jpg', altText: 'October meme', title: 'title', author: 'u/Faker', upvotes: '23,6k' },
+  { id: 11, month: 'November', imageSrc: 'november.jpg', altText: 'November meme', title: 'title', author: 'u/Cheff', upvotes: '23,6k' },
+  { id: 12, month: 'December', imageSrc: 'december.jpg', altText: 'December meme', title: 'title', author: 'u/Friend', upvotes: '23,6k' },
 ];
 
 const months = [
