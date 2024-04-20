@@ -17,25 +17,38 @@ const imageBoxesData = [
   { id: 12, month: 'December', imageSrc: 'december.jpg', altText: 'December meme', title: 'title', author: 'u/user', upvotes: '23,6k' },
 ];
 
+const months = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December'
+];
+
 const MainContent = () => {
   return (
     <main className="main-content">
       <div className="image-box-container">
-          {imageBoxesData.map((box) => (
-            <ImageBox
-            key={box.id}
-            month={box.month}
-            title={box.title}
-            // imageSrc={box.imageSrc}
-            imageSrc={'src/assets/dummy.webp'}
-            altText={box.altText}
-            author={box.author}
-            upvotes={box.upvotes}
-            />
-          ))}
-        </div>
+        {months.map((month) => {
+          const imageData = imageBoxesData.find((data) => data.month === month);
+          return (
+            <div key={month}>
+              <h2>{month}</h2>
+              {imageData ? (
+                <ImageBox
+                  title={imageData.title}
+                  imageSrc={'src/assets/dummy.webp'}
+                  altText={imageData.altText}
+                  author={imageData.author}
+                  upvotes={imageData.upvotes}
+                />
+              ) : (
+                <div className="placeholder">{month}</div>
+              )}
+            </div>
+          );
+        })}
+      </div>
     </main>
   );
 };
 
 export default MainContent;
+
