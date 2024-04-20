@@ -12,6 +12,10 @@
   padding: 20px;
   box-sizing: border-box;
   z-index: 1000;
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to right, #9e7ef8, #f8cd7e);
 }
 
 .header h1 {
