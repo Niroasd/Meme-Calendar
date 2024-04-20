@@ -10,8 +10,7 @@ const envPath = join(__dirname, '../../.env');
 
 console.log("Before dotenv config");
 dotenv.config({ path: envPath });
-console.log("After dotenv config");
-
+console.log("After dotenv config"); // nicon dotenv psykoosit
 
 const reddit = new snoowrap({
     userAgent: process.env.REDDIT_USER_AGENT,
